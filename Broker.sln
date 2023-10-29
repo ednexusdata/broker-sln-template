@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03E9E35A-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Service.IntegrationTests", "src\broker-service\test\OregonNexus.Broker.Service.IntegrationTests\OregonNexus.Broker.Service.IntegrationTests.csproj", "{15F3B82F-FF58-437A-A6C3-7300B61473BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-worker", "broker-worker", "{82658813-64A8-46C6-9FED-DA3EDC57CB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Worker", "src\broker-worker\src\OregonNexus.Broker.Worker.csproj", "{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +110,10 @@ Global
 		{15F3B82F-FF58-437A-A6C3-7300B61473BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F3B82F-FF58-437A-A6C3-7300B61473BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F3B82F-FF58-437A-A6C3-7300B61473BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1EA5EA44-F49A-4A00-BA28-973CF9BC63F6} = {546651A9-B2D9-4F59-91FD-3FB84E2299BD}
@@ -130,5 +138,7 @@ Global
 		{15F6592A-A71A-4620-A8E8-FFC8AE2CA3AC} = {546651A9-B2D9-4F59-91FD-3FB84E2299BD}
 		{03E9E35A-1CC2-4A31-B813-F4CBDB53D79B} = {15F6592A-A71A-4620-A8E8-FFC8AE2CA3AC}
 		{15F3B82F-FF58-437A-A6C3-7300B61473BC} = {03E9E35A-1CC2-4A31-B813-F4CBDB53D79B}
+		{82658813-64A8-46C6-9FED-DA3EDC57CB8F} = {546651A9-B2D9-4F59-91FD-3FB84E2299BD}
+		{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52} = {82658813-64A8-46C6-9FED-DA3EDC57CB8F}
 	EndGlobalSection
 EndGlobal
