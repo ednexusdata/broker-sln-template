@@ -7,47 +7,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{546651A9-B2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-web", "broker-web", "{1EA5EA44-F49A-4A00-BA28-973CF9BC63F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Web", "src\broker-web\src\OregonNexus.Broker.Web.csproj", "{B6DCDB9F-89B6-40B7-9580-19EDEAF709B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Web", "src\broker-web\src\EdNexusData.Broker.Web.csproj", "{B6DCDB9F-89B6-40B7-9580-19EDEAF709B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-data", "broker-data", "{5F18AF4A-EA7E-4507-A721-A859D0B87C0E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{249E2ECD-1734-4472-A37C-79D270DC8778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Data", "src\broker-data\src\OregonNexus.Broker.Data.csproj", "{C8F7CA8D-DAEE-40FC-B47D-76C4A421669D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Data", "src\broker-data\src\EdNexusData.Broker.Data.csproj", "{C8F7CA8D-DAEE-40FC-B47D-76C4A421669D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-core", "broker-core", "{F43B9F34-E79F-4479-8602-0F9DBA73A3DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBE80712-D5AF-4AD6-92AD-E9108FBF82EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Connector", "src\broker-core\src\OregonNexus.Broker.Connector\OregonNexus.Broker.Connector.csproj", "{D9FCAACA-38E2-4937-AADD-895652437598}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector", "src\broker-core\src\EdNexusData.Broker.Connector\EdNexusData.Broker.Connector.csproj", "{D9FCAACA-38E2-4937-AADD-895652437598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Domain", "src\broker-core\src\OregonNexus.Broker.Domain\OregonNexus.Broker.Domain.csproj", "{BE465DB8-D868-422D-8D83-0BB4D1091291}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Domain", "src\broker-core\src\EdNexusData.Broker.Domain\EdNexusData.Broker.Domain.csproj", "{BE465DB8-D868-422D-8D83-0BB4D1091291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.SharedKernel", "src\broker-core\src\OregonNexus.Broker.SharedKernel\OregonNexus.Broker.SharedKernel.csproj", "{06955FA9-DB88-4E43-AA1F-FAFE1C46B731}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.SharedKernel", "src\broker-core\src\EdNexusData.Broker.SharedKernel\EdNexusData.Broker.SharedKernel.csproj", "{06955FA9-DB88-4E43-AA1F-FAFE1C46B731}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-connector-edupointsynergy", "broker-connector-edupointsynergy", "{B5C5D361-D730-4D0C-81A1-782D09BEAF17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Connector.Edupoint.Synergy", "src\broker-connector-edupointsynergy\src\OregonNexus.Broker.Connector.Edupoint.Synergy.csproj", "{7D782A5F-F2ED-432D-9614-1DFACC00A064}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector.Edupoint.Synergy", "src\broker-connector-edupointsynergy\src\EdNexusData.Broker.Connector.Edupoint.Synergy.csproj", "{7D782A5F-F2ED-432D-9614-1DFACC00A064}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-connector-edfi", "broker-connector-edfi", "{D01B90E4-5320-4EB3-87B3-6ECEEE2C0E30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D67FBA82-0C0C-4900-A511-82661A462F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Connector.EdFiAlliance.EdFi", "src\broker-connector-edfi\src\OregonNexus.Broker.Connector.EdFiAlliance.EdFi\OregonNexus.Broker.Connector.EdFiAlliance.EdFi.csproj", "{E5600597-4622-4BE0-8D44-648DE36CB35E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector.EdFiAlliance.EdFi", "src\broker-connector-edfi\src\EdNexusData.Broker.Connector.EdFiAlliance.EdFi\EdNexusData.Broker.Connector.EdFiAlliance.EdFi.csproj", "{E5600597-4622-4BE0-8D44-648DE36CB35E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B85ED292-86D3-455F-BA62-1376127EC57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Data.IntegrationTests", "src\broker-data\test\OregonNexus.Broker.Data.IntegrationTests\OregonNexus.Broker.Data.IntegrationTests.csproj", "{DFDE8F15-7A66-4E5A-AA17-D467E94E80DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Data.IntegrationTests", "src\broker-data\test\EdNexusData.Broker.Data.IntegrationTests\EdNexusData.Broker.Data.IntegrationTests.csproj", "{DFDE8F15-7A66-4E5A-AA17-D467E94E80DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-service", "broker-service", "{15F6592A-A71A-4620-A8E8-FFC8AE2CA3AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03E9E35A-1CC2-4A31-B813-F4CBDB53D79B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Service.IntegrationTests", "src\broker-service\test\OregonNexus.Broker.Service.IntegrationTests\OregonNexus.Broker.Service.IntegrationTests.csproj", "{15F3B82F-FF58-437A-A6C3-7300B61473BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Service.IntegrationTests", "src\broker-service\test\EdNexusData.Broker.Service.IntegrationTests\EdNexusData.Broker.Service.IntegrationTests.csproj", "{15F3B82F-FF58-437A-A6C3-7300B61473BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-worker", "broker-worker", "{82658813-64A8-46C6-9FED-DA3EDC57CB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OregonNexus.Broker.Worker", "src\broker-worker\src\OregonNexus.Broker.Worker.csproj", "{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Worker", "src\broker-worker\src\EdNexusData.Broker.Worker.csproj", "{1AEF9AF7-1540-4F13-9271-1A8C8EE4FF52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
