@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/broker-web/src/EdNexusData.Broker.Web.csproj",
+                "${workspaceFolder}/src/broker-app/src/EdNexusData.Broker.Web/EdNexusData.Broker.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/broker-web/src/EdNexusData.Broker.Web.csproj",
+                "${workspaceFolder}/src/broker-app/src/EdNexusData.Broker.Web/EdNexusData.Broker.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/broker-web/src/EdNexusData.Broker.Web.csproj"
+                "${workspaceFolder}/src/broker-web/src/EdNexusData.Broker.Web/EdNexusData.Broker.Web.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
