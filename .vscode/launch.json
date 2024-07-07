@@ -1,11 +1,17 @@
 {
     "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Launch Web + Worker",
+            "configurations": ["Launch Broker Web", "Launch Broker Worker"]
+        }
+    ],
     "configurations": [
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
             // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-            "name": ".NET Core Launch (web)",
+            "name": "Launch Broker Web",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -14,6 +20,7 @@
             "args": [],
             "cwd": "${workspaceFolder}/src/broker-app/src/EdNexusData.Broker.Web",
             "stopAtEntry": false,
+            "requireExactSource": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             //"serverReadyAction": {
             //    "action": "openExternally",
@@ -27,9 +34,28 @@
             }
         },
         {
-            "name": ".NET Core Attach",
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Launch Broker Worker",
             "type": "coreclr",
-            "request": "attach"
+            "request": "launch",
+            "preLaunchTask": "buildWorker",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/broker-app/src/EdNexusData.Broker.Worker/bin/Debug/net8.0/EdNexusData.Broker.Worker.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/broker-app/src/EdNexusData.Broker.Worker",
+            "stopAtEntry": false,
+            "enableStepFiltering": false,
+            "requireExactSource": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            //"serverReadyAction": {
+            //    "action": "openExternally",
+            //    "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            //},
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
         }
     ]
 }
