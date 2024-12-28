@@ -5,15 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBB78978-5F26-4053-8046-D40CF969B7E7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-core", "broker-core", "{2E8E36A9-102B-4D48-A68F-A926C10914CB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-common", "broker-common", "{2E8E36A9-102B-4D48-A68F-A926C10914CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84C97A3B-151C-42F9-BE58-6E756408E28F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.SharedKernel", "src\broker-core\src\EdNexusData.Broker.SharedKernel\EdNexusData.Broker.SharedKernel.csproj", "{54C88D05-E161-4FBB-96C1-DE82137F5B2A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Domain", "src\broker-core\src\EdNexusData.Broker.Domain\EdNexusData.Broker.Domain.csproj", "{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector", "src\broker-core\src\EdNexusData.Broker.Connector\EdNexusData.Broker.Connector.csproj", "{B1AC0350-4E5B-4492-9517-FCAF92446016}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-app", "broker-app", "{4D5CAF98-BAA1-4553-B304-DFDF791AFFDA}"
 EndProject
@@ -21,11 +15,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{689502C3-2FE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Data", "src\broker-app\src\EdNexusData.Broker.Data\EdNexusData.Broker.Data.csproj", "{CA2455DD-3E03-4251-B671-7BC6049BD1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Service", "src\broker-app\src\EdNexusData.Broker.Service\EdNexusData.Broker.Service.csproj", "{04A11578-570A-470B-9EAB-5723CA595E26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Core", "src\broker-app\src\EdNexusData.Broker.Core\EdNexusData.Broker.Core.csproj", "{04A11578-570A-470B-9EAB-5723CA595E26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Web", "src\broker-app\src\EdNexusData.Broker.Web\EdNexusData.Broker.Web.csproj", "{8CB4B6B0-C1B7-48BD-83FC-E5A79AC68E5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Worker", "src\broker-app\src\EdNexusData.Broker.Worker\EdNexusData.Broker.Worker.csproj", "{3862F9B5-BB2C-4D41-9E04-93D299E83BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-connector-edfi", "broker-connector-edfi", "{E30CA0D6-6B28-402F-8131-A9A603A52544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector.EdFiAlliance.EdFi", "src\broker-connector-edfi\src\EdNexusData.Broker.Connector.EdFiAlliance.EdFi.csproj", "{ABCD6636-D4C3-4626-BF8F-2E3886588EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-connector-edupointsynergy", "broker-connector-edupointsynergy", "{F45B788F-C390-44E6-A2D4-0794A44BD631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector.Edupoint.Synergy", "src\broker-connector-edupointsynergy\src\EdNexusData.Broker.Connector.Edupoint.Synergy.csproj", "{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "broker-connector-fixture", "broker-connector-fixture", "{7C56563E-4749-49A2-938A-9FE4E572DDAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Connector.Fixture", "src\broker-connector-fixture\src\EdNexusData.Broker.Connector.Fixture.csproj", "{14E1783A-0378-4846-92A5-4D6792CEFA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdNexusData.Broker.Common", "src\broker-common\src\EdNexusData.Broker.Common.csproj", "{34306F3D-A508-45BF-A4D1-63E3AE736755}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +44,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54C88D05-E161-4FBB-96C1-DE82137F5B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54C88D05-E161-4FBB-96C1-DE82137F5B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54C88D05-E161-4FBB-96C1-DE82137F5B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54C88D05-E161-4FBB-96C1-DE82137F5B2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B1AC0350-4E5B-4492-9517-FCAF92446016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1AC0350-4E5B-4492-9517-FCAF92446016}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1AC0350-4E5B-4492-9517-FCAF92446016}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1AC0350-4E5B-4492-9517-FCAF92446016}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA2455DD-3E03-4251-B671-7BC6049BD1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA2455DD-3E03-4251-B671-7BC6049BD1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2455DD-3E03-4251-B671-7BC6049BD1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,18 +60,38 @@ Global
 		{3862F9B5-BB2C-4D41-9E04-93D299E83BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3862F9B5-BB2C-4D41-9E04-93D299E83BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3862F9B5-BB2C-4D41-9E04-93D299E83BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD6636-D4C3-4626-BF8F-2E3886588EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD6636-D4C3-4626-BF8F-2E3886588EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCD6636-D4C3-4626-BF8F-2E3886588EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCD6636-D4C3-4626-BF8F-2E3886588EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E1783A-0378-4846-92A5-4D6792CEFA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E1783A-0378-4846-92A5-4D6792CEFA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E1783A-0378-4846-92A5-4D6792CEFA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E1783A-0378-4846-92A5-4D6792CEFA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34306F3D-A508-45BF-A4D1-63E3AE736755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34306F3D-A508-45BF-A4D1-63E3AE736755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34306F3D-A508-45BF-A4D1-63E3AE736755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34306F3D-A508-45BF-A4D1-63E3AE736755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2E8E36A9-102B-4D48-A68F-A926C10914CB} = {CBB78978-5F26-4053-8046-D40CF969B7E7}
 		{84C97A3B-151C-42F9-BE58-6E756408E28F} = {2E8E36A9-102B-4D48-A68F-A926C10914CB}
-		{54C88D05-E161-4FBB-96C1-DE82137F5B2A} = {84C97A3B-151C-42F9-BE58-6E756408E28F}
-		{BECC6E4B-D7A2-41AB-B9DB-8F102F2F933C} = {84C97A3B-151C-42F9-BE58-6E756408E28F}
-		{B1AC0350-4E5B-4492-9517-FCAF92446016} = {84C97A3B-151C-42F9-BE58-6E756408E28F}
 		{4D5CAF98-BAA1-4553-B304-DFDF791AFFDA} = {CBB78978-5F26-4053-8046-D40CF969B7E7}
 		{689502C3-2FE0-4F94-A6A9-1BDB6427BF26} = {4D5CAF98-BAA1-4553-B304-DFDF791AFFDA}
 		{CA2455DD-3E03-4251-B671-7BC6049BD1F6} = {689502C3-2FE0-4F94-A6A9-1BDB6427BF26}
 		{04A11578-570A-470B-9EAB-5723CA595E26} = {689502C3-2FE0-4F94-A6A9-1BDB6427BF26}
 		{8CB4B6B0-C1B7-48BD-83FC-E5A79AC68E5E} = {689502C3-2FE0-4F94-A6A9-1BDB6427BF26}
 		{3862F9B5-BB2C-4D41-9E04-93D299E83BF9} = {689502C3-2FE0-4F94-A6A9-1BDB6427BF26}
+		{E30CA0D6-6B28-402F-8131-A9A603A52544} = {CBB78978-5F26-4053-8046-D40CF969B7E7}
+		{ABCD6636-D4C3-4626-BF8F-2E3886588EBE} = {E30CA0D6-6B28-402F-8131-A9A603A52544}
+		{F45B788F-C390-44E6-A2D4-0794A44BD631} = {CBB78978-5F26-4053-8046-D40CF969B7E7}
+		{368FD8FA-DB2B-4A32-BEFA-2049C5E8C227} = {F45B788F-C390-44E6-A2D4-0794A44BD631}
+		{7C56563E-4749-49A2-938A-9FE4E572DDAA} = {CBB78978-5F26-4053-8046-D40CF969B7E7}
+		{14E1783A-0378-4846-92A5-4D6792CEFA41} = {7C56563E-4749-49A2-938A-9FE4E572DDAA}
+		{34306F3D-A508-45BF-A4D1-63E3AE736755} = {84C97A3B-151C-42F9-BE58-6E756408E28F}
 	EndGlobalSection
 EndGlobal
